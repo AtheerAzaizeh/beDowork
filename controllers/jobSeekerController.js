@@ -1,4 +1,4 @@
-const JobSeeker = require('../models/JobSeekerModel');
+const JobSeeker = require('../models/jobSeekerModel');
 const cv = require('../models/cvModel');
 exports.create = async (req, res) => {
   try {

@@ -1,5 +1,5 @@
 const CV = require('../models/cvModel');
-const JobSeeker = require('../models/JobSeekerModel');
+const JobSeeker = require('../models/jobSeekerModel');
 
 exports.createCV = async (req, res) => {
   const { job_seeker_id, resume_url, skills, workExperiences, education } = req.body;
